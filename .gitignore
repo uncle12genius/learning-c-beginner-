@@ -1,0 +1,44 @@
+## Ignore Visual Studio settings folder
+.vs/
+
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Auto-generated files
+Generated\ Files/
+
+## Build artifacts
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+## NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Visual Studio cache
+*.psess
+*.vsp
+*.vspscc
+
+## Temporary files
+*.tmp
+*.temp
+
+## Rider / JetBrains
+.idea/
+*.iml
+
+## DotNet Tools
+.vscode/
