@@ -1,19 +1,16 @@
 ﻿using System;
 
-    namespace ProgramApp  {
-    class Program { 
-    static void Main(String[]args)
-        {
-            int number = 600;
-            string firstName = "evan ";
-            char last_name = 'a';
-            bool value = false;
+namespace Program { 
+ 
+    public class Program
+    {
+        static void Main(String[] args) {
+            Console.WriteLine("what is your name ?");
 
-            Console.WriteLine(number ); 
-            Console.WriteLine ( firstName );
-            Console.WriteLine (last_name);
-            Console.WriteLine(value);
-            Console.WriteLine("john"  +  firstName );
+            String User_name = Console.ReadLine();
+
+            Console.WriteLine("Your name is " + User_name);
         }
     }
+
 }
